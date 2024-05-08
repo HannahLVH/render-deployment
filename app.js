@@ -11,7 +11,7 @@ const path = require("node:path");
 
 //init the app and the port
 const app = express();
-const PORT = process.env.PORT || 4000; //port change to minimize server clashes
+const PORT = process.env.PORT || 3001; //port change to minimize server clashes
 const cors = require("cors"); //define cors after the port 
 const helmet = require("helmet"); //added
 const session = require("express-session"); //added

@@ -18,7 +18,7 @@ const session = require("express-session"); //added
 const passport = require("passport"); //added
 
 app.use(morgan("dev")); //combined
-//-----------------------------------------------------
+//------------------------------------------------------
 //define the routing variable for authorsRoutes
 const booksRoutes = require('./routes/booksRouter');
 
